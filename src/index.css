@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: "Fjalla One", sans-serif;  }
+
+/* #9B834D */
+/* brown #242729 */
