@@ -1,7 +1,10 @@
 import BrandSec from "./Components/BrandSec";
 import FeatureSection from "./Components/FeatureSection";
+import Footer from "./Components/Footer";
 import GenderSelection from "./Components/GenderSelection";
 import HomeSlider from "./Components/HomeSlider";
+import Navbar from "./Components/Navbar";
+import NewsletterSubscription from "./Components/NewsletterSubscription";
 import Product from "./Components/Product";
 import SpecialOffer from "./Components/WatchDiscountPromotion";
 
@@ -35,7 +38,7 @@ function App() {
 
   return (
     <>
-      {/* <Navbar/> */}
+      <Navbar/>
       <HomeSlider />
       <BrandSec />
 
@@ -67,9 +70,7 @@ function App() {
       <FeatureSection />
 
       <div className="flex w-full uppercase justify-center border-t-[1px] border-gray-400 text-gray-800 py-[3vw] font-normal text-2xl lg:text-4xl">
-        
-popular watches
-
+        popular watches
       </div>
       <div className="flex flex-wrap ">
         {products.map((product, index) => (
@@ -81,6 +82,9 @@ popular watches
           />
         ))}
       </div>
+
+      <NewsletterSubscription/>
+      <Footer/>
     </>
   );
 }
