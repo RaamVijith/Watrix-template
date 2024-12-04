@@ -129,7 +129,7 @@ const Navbar: React.FC = () => {
               <li className="text-gray-800 hover:text-[#9B834D]">MAN</li>
               <li className="text-gray-800 hover:text-[#9B834D]">KIDS</li>
               <li className="text-gray-800 hover:text-[#9B834D]">BRANDS</li>
-              <li className="text-gray-800 hover:text-[#9B834D]">OFFERS</li>
+              <li className="text-gray-800 hover:text-[#9B834D]">OFFERS.</li>
             </ul>
           </div>
         </div>
